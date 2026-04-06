@@ -1,0 +1,36 @@
+# --- HuggingFace Hub (Pinned to what was in your logs) ---
+huggingface-hub==0.36.0
+
+# --- PyTorch CPU (Removed markdown formatting) ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
+# --- Core Data ---
+numpy==2.2.6
+pandas==2.2.3
+
+# --- RAG Framework (LlamaIndex) ---
+llama-index-core==0.14.10
+llama-index-embeddings-huggingface==0.6.1
+llama-index-vector-stores-pinecone==0.7.1
+llama-index-readers-file==0.5.5
+llama-index-llms-databricks==0.4.1
+
+# --- NLP & Embeddings ---
+sentence-transformers==5.2.0
+
+# --- Vector Database ---
+pinecone==7.3.0
+
+# --- Cloud (AWS S3 & Snowflake) ---
+boto3==1.42.12
+snowflake-connector-python==4.1.1
+databricks-sql-connector==4.2.3
+
+# --- OCR & PDF Parsing ---
+pymupdf==1.26.7
+
+# --- Web & Utilities ---
+streamlit==1.42.0
+python-dotenv==1.2.1
+requests
